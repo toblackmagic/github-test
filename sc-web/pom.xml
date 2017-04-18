@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.sctest</groupId>
+        <artifactId>sc-security</artifactId>
+        <version>${sc-version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>sc-web</artifactId>
+    <packaging>war</packaging>
+    <description>管理后台前端</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.sctest</groupId>
+            <artifactId>sc-web-server</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <finalName>renren-security</finalName>
+    </build>
+
+</project>
