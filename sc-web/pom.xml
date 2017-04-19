@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+		<groupId>io.sc</groupId>
+		<artifactId>sc-security</artifactId>
+		<version>${sc-version}</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>sc-web</artifactId>
+	<packaging>war</packaging>
+    <description>管理后台</description>
+	
+	<dependencies>
+        <dependency>
+            <groupId>io.sc</groupId>
+            <artifactId>sc-common</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.sc</groupId>
+            <artifactId>sc-shiro</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+		<dependency>
+            <groupId>io.sc</groupId>
+            <artifactId>sc-gen</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+		<dependency>
+            <groupId>io.sc</groupId>
+            <artifactId>sc-schedule</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.sc</groupId>
+            <artifactId>sc-api</artifactId>
+            <version>${sc-version}</version>
+        </dependency>
+    </dependencies>
+	<build>
+		<finalName>sc-security</finalName>
+	</build>
+	
+</project>
