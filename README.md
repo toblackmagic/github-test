@@ -11,7 +11,7 @@
 
 **项目结构** 
 ```
-renren-security
+sc-security
 ├─common 公共模块
 │  ├─annotation 公共注解
 │  ├─oss 云存储服务
